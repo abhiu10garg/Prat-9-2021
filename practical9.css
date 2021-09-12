@@ -1,0 +1,213 @@
+html {
+    scroll-padding-top: 15vh;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    /*margin: -8px -7px 0 -5px;*/
+    background-color: gray;
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.header ul {
+    display: inline-flex;
+}
+
+.header ul li {
+    margin-right: 50px;
+    list-style: none;
+    margin-left: 50px;
+    padding: 15px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.header ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.show-btn, .hide-btn {
+    font-size: 30px;
+    color: white;
+    float: right;
+}
+
+.section {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.banner {
+    height: 90vh;
+    margin-left: -4px;
+    background: url("https://cdn.pixabay.com/photo/2014/05/02/21/50/laptop-336378_960_720.jpg") no-repeat;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 70px;
+    color: white;
+    margin: 20px 20px;
+    letter-spacing: 3px;
+}
+
+.circle {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 10px;
+    height: 40vh;
+    border-radius: 100%;
+    background-color: lightgray;
+}
+
+.circle img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.main-content {
+    background-color: gray;
+    height: 100vh;
+    width: 45%;
+    float: left;
+    margin: 20px 20px 20px 10px;
+    padding: 10px;
+}
+
+.main-content h2 {
+    color: white;
+    text-align: center;
+}
+
+.main-content p {
+    color: white;
+    line-height: 1.2;
+    font-size: 20px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+.article {
+    float: right;
+    width: 45%;
+    margin: 20px 10px 20px 20px;
+    background-color: indianred;
+    height: 30vh;
+    text-align: center;
+}
+
+.article h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#bg1 {
+    background: url("https://20o8nn37v3mzb7unq3fsj61e-wpengine.netdna-ssl.com/wp-content/uploads/2018/12/Project-management-tools-bad.jpg") no-repeat;
+    background-size: cover;
+}
+
+#bg2 {
+    background: url("https://www.salesforce.com/content/dam/blogs/ca/Blog%20Posts/project-managemnet-open-graph.jpg") no-repeat;
+    background-size: cover;
+}
+
+#bg3 {
+    background: url("https://www.elegantthemes.com/blog/wp-content/uploads/2020/06/best-project-management-platforms-featured-image-scaled.jpg") no-repeat;
+    background-size: cover;
+}
+
+.rec {
+    display: inline-block;
+    height: 62vh;
+    margin: 10px 20px 0 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+    width: 280px;
+    height: 150px;
+    margin: 10px;
+
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.heading {
+    width: 280px;
+    text-align: center;
+    margin: 10px;
+}
+
+.heading h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.summary {
+    /*width: 100%;*/
+    width: 280px;
+    margin: 10px;
+    text-align: justify;
+    overflow: hidden;
+    height: 140px;
+}
+
+.summary p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 1.3;
+}
+
+.button {
+    width: 280px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.button a {
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: "Segoe UI", serif;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.footer {
+    height: 15vh;
+    background-color: rosybrown;
+    text-align: center;
+}
+
+@media (min-width: 801px) and (max-width: 1199px) {
+
+}
